@@ -176,7 +176,7 @@ const ProductList = ({ buscarTermino }) => {
                 />
 
                 <h3>{producto.nombre}</h3>
-                <p>{producto.precio}</p>
+                <p>$ {producto.precio}</p>
               </div>
             ))
           ) : (
